@@ -4,6 +4,11 @@ body {
     background: #F0F4EC;
 }
 
+.title-nav-container > .title-containter {
+    justify-content: center;
+    align-items: center;
+}
+
 .title-containter {
     /*Item dimensions*/
     width: 520px;
