@@ -1,6 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 h1 {
-    color:darkslateblue;
-    text-align: center;
-    font-family: "Playfair Display", serif;
+    color: #4D5382;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.name-rectangle {
+    width: 510px;
+    height: 99px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #C6DEA6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
