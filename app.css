@@ -5,6 +5,8 @@
     height: 171px;
     flex-shrink: 0; 
     align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 h1 {
