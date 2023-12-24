@@ -1,56 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     background: #F0F4EC;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
-.title-nav-container {
+.nav-header {
+    background: #451F55;
+    margin: 0;
+    height: 10vh;
+    width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.title-containter {
-    /*Item dimensions*/
-    width: 520px;
-    height: 171px;
-    flex-shrink: 0;
-    
-    /*Interior item alignment*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.name-ellipse {
-    width: 520px;
-    height: 171px;
-    flex-shrink: 0;
-    border-radius: 520px;
-    background: #5497A7;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-    /*Interior item alignment*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.name-rectangle {
-    width: 510px;
-    height: 99px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: #C6DEA6;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 h1 {
-    color: #4D5382;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    font-family: Playfair Display;
-    font-size: 60px;
+    color: #F0F4EC;
+    font-family: "Playfair Display";
+    font-size: 2em;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    margin-left: 2vw;
+}
+
+.nav-text {
+    color: #F0F4EC;
+    font-family: "Public Sans";
+    font-size: 1em;
+    margin: 1vw;
+    align-self: flex-end;
+}
+
+.nav-categories {
+    flex-grow: 1;
+    display: flex;
+    justify-content: right;
+    margin-right: 2vw;
 }
