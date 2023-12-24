@@ -14,23 +14,24 @@ body {
     height: 10vh;
     width: 100vw;
     display: flex;
+    align-items: flex-end;
 }
 
 h1 {
     color: #F0F4EC;
     font-family: "Playfair Display";
-    font-size: 2em;
+    font-size: 6vh;
     font-style: normal;
     font-weight: 600;
     margin-left: 2vw;
+    margin-bottom: 1vw;
 }
 
 .nav-text {
     color: #F0F4EC;
     font-family: "Public Sans";
-    font-size: 1em;
+    font-size: 3vh;
     margin: 1vw;
-    align-self: flex-end;
 }
 
 .nav-categories {
@@ -55,17 +56,19 @@ h1 {
 .full-name {
     color: #451F55;
     font-family: "Playfair Display";
-    font-size: 4em;
+    font-size: 10vh;
     font-style: normal;
     font-weight: 600;
     margin-bottom: 0;
     text-align: center;
+    white-space: nowrap;
 }
 
 .intro-text {
     font-family: "Public Sans";
-    font-size: 1.5em;
+    font-size: 3vh;
     margin-top: 0;
     text-align: center;
+    white-space: nowrap;
 }
 /**/
